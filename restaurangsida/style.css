@@ -1,0 +1,125 @@
+body {
+    display: block;
+    margin: 8px; 
+    background-color: lightgrey;  
+    }
+
+.bakgrund-box {
+    background-color: rgb(254, 165, 165);  
+    }
+
+
+.bakgrund-box img {
+    width: 50;
+    height: 10%;
+}
+
+/* Hela sektionen - skriv nåt om margin, bredd på bilden */
+.header {
+    font-family: "bebas-neue-by-fontfabric";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header img {
+    width: 30%;
+}
+
+    
+/* NAVBAR 
+#navbar {
+    white-space: nowrap;
+    line-height: 1em;
+    display: block;
+*/
+
+#navbar {
+    display: grid;
+    min-height: 30px;
+    grid-auto-flow: column;
+    background-color: transparent;
+    border-bottom: black;
+    border-bottom-style: solid;
+    grid-gap: 9em;
+    padding: 40px 40px;
+    margin-bottom: none;
+
+}
+  
+#links {
+    display: grid;
+    justify-content:center;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 1em;
+
+}
+
+#links a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "bebas-neue-by-fontfabric";
+    
+}
+
+#links a:hover {
+    color: #e73b2b;
+}
+
+/* INTRO-SEKTIONEN */
+.intro{
+
+    font-family: proxima-nova;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .07em;
+    line-height: 1.5em;
+    text-transform: none;
+    color: #333;
+}
+
+
+
+
+
+/* MENY-SIDAN MENY-SIDAN MENY-SIDAN MENY-SIDAN */
+/* MENY-SIDAN MENY-SIDAN MENY-SIDAN MENY-SIDAN*/
+
+table{
+    text-align: left;
+    border: 1px solid black;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    font-family: "proxima-nova";
+ 
+}
+
+caption{
+    font-style: bold;
+}
+
+th{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.meny{
+    text-align: right;
+
+}
