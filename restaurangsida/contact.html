@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="style.css" rel="stylesheet">
+  <title>Menu - Mazziarini</title>
+
+</head>
+
+
+<body>
+  <!-- VÄNTA MED ATT REDIGERA DENNA SÅ DET BLIR SAMMA SOM INDEX -->
+  <!-- Block med bild + logo + navbar -->
+  <section class="top" id="top-contact">
+        
+    <img src="pics/logomazz.png" alt= "logo-mazziarini" class="logo">
+    
+    <header class="navbar">
+            <!-- NAVBAREN (fyll på länkar)-->
+            <nav>
+                <div id="navbar">
+                  <div id="links">
+                    <a href="index.html">Home</a>
+                    <a href="about-us.html">About us</a>
+                    <a href="meny.html">Menu</a>
+                    <a href="contact.html">Contact</a>
+                  </div>
+                </div>
+              </nav>
+    </header>
+
+  </section>
+  
+  <section class="contact-image-head">
+    <h2>Find us here</h2>
+    <p>Kornhamnstorg 61<br>
+      Gamla Stan / Slussen<br>
+      111 27 Stockholm<br>
+      Sweden</p>
+  </section>
+  
+  <div class="map">
+    <img src="pics/map-mazz-2.png" class="map">
+  </div>
+
+  <h2>Make a reservation</h2>
+
+  <!-- Formulär boka bord -->
+  <form action="reservation.php" method="post">
+     <div class="elem-group">
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="visitor_name" required>
+      </div>
+
+      <div class="elem-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="visitor_email" required>
+      </div>
+
+      <div class="elem-group">
+        <label for="phone">Phone number:</label>
+        <input type="tel" id="phone" name="visitor_phone" required>
+      </div>
+
+      <div class="elem-group inlined">
+        <label for="adult">Number of guests:</label>
+        <input type="number" id="adult" name="total_adults" min="1" required>
+      </div>
+
+      <div class="elem-group inlined">
+        <label for="checkin-date">Date:</label>
+        <input type="date" id="checkin-date" name="checkin" required>
+      </div>
+
+      <div class="elem-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="visitor_message"></textarea>
+      </div>
+
+      <button type="submit">SUBMIT</button>
+  </form>
+
+
+  <!-- Tabell:"find us" och Tabell:"hours" -->
+  <footer>
+    <div class="container">
+      <div class="c1">
+        <ul>
+          <h4>Find us</h4>
+          <li>Kornhamnstorg 61</li>
+          <li>111 27 Stockholm</li>
+          <li>+46 (0)821 19 30</li>
+          <li> <a href="info@mazzarini.se">info@mazzarini.se</a></li>
+        </ul>
+      </div>
+
+      <div class="c2">
+        <ul>
+          <h4>Hours</h4>
+          <li>Mon-Thu 08-19</li>
+          <li>Fri 08-23</li>
+          <li>Sat 10-23</li>
+          <li>Sun 11-19</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

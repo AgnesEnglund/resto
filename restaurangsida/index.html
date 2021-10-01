@@ -14,24 +14,23 @@
 <body>
 
     <!-- Block med bild + logo + navbar -->
-    <!-- BAKGRUNDSBILDEN: " data-image-dimensions="2500x3750"  -->
+    <!-- BAKGRUNDSBILDEN: " data-image-dimensions="2500x3750" 
+    style= "background-image: url(pics/Header-Mazzarini-4895.jpeg);" -->
     
 
-    <section class="header">
-
-        <div id="logo-section">
-            <img src="pics/logomazz.png" alt= "logo-mazziarini" />
-        </div>
+    <section class="top">
         
-        <header>
+        <img src="pics/logomazz.png" alt= "logo-mazziarini" class="logo">
+        
+        <header class="navbar">
                 <!-- NAVBAREN (fyll på länkar)-->
                 <nav>
                     <div id="navbar">
                       <div id="links">
                         <a href="index.html">Home</a>
-                        <a href="">About us</a>
+                        <a href="about-us.html">About us</a>
                         <a href="meny.html">Menu</a>
-                        <a href="">Contact</a>
+                        <a href="contact.html">Contact</a>
                       </div>
                     </div>
                   </nav>
@@ -39,18 +38,33 @@
 
         <h1> FROM THE FIRST COFFEE BEAN, <br>TO THE LAST DROP OF WINE. </h1>
 
-        <section class="bakgrund-box">
-            <img src="pics/Header-Mazzarini-4895.jpeg" alt= "bakgrundsbild-mazziarini" />
-        </section>
 
 
     </section>
     
     <!-- Den korta texten under bilden -->
     <section class="intro">
-        <p>Mazzarini is a family business and a great place to meet friends and grab something to eat and drink, just about any time of the day.</p>
-        <p>Located in the heart of Stockholm, Mazzarini is a bright, lively place where we hope you feel at home.</p>
-        <p>Welcome to our place, <br>Johan and family</p>
+        <div class="welcome">
+            <p>Mazzarini is a family business and a great place to meet friends and grab something to eat and drink, just about any time of the day.</p>
+            <p>Located in the heart of Stockholm, Mazzarini is a bright, lively place where we hope you feel at home.</p>
+            <p>Welcome to our place, <br>Johan and family</p>
+        </div>
+
+        <div class="gallery">
+            <div class="grid-container">
+                <div class="gallery-item"><img src="pics/mazz-1.jpeg"></div>
+                <div class="gallery-item"><img src="pics/mazz-2.jpeg"></div>
+                <div class="gallery-item"><img src="pics/mazz3.jpeg"></div>
+                <div class="gallery-item"><img src="pics/mazz-4.jpeg"></div>
+                <div class="gallery-item"><img src="pics/mazz-5.jpeg"></div>
+                <div class="gallery-item"><img src="pics/mazz-6.jpeg"></div>
+                <div class="gallery-item"><img src="pics/mazz-7.jpeg"></div> 
+                <div class="gallery-item"><img src="pics/mazz-2.jpeg"></div>  
+
+            </div>
+
+            
+        </div>
 
     </section>
 
@@ -60,10 +74,28 @@
     </section>
 
     <!-- Tabell:"find us" och Tabell:"hours" -->
-    <footer>
-
+      <footer>
+        <div class="container">
+            <div class="c1">
+        <ul>
+            <h4>Find us</h4>
+            <li>Kornhamnstorg 61</li>
+            <li>111 27 Stockholm</li>
+            <li>+46 (0)821 19 30</li>
+            <li> <a href="info@mazzarini.se">info@mazzarini.se</a></li>
+          </ul>
+        </div>
+        
+        <div class="c2">
+          <ul>
+            <h4>Hours</h4>
+            <li>Mon-Thu 08-19</li>
+            <li>Fri 08-23</li>
+            <li>Sat 10-23</li>
+            <li>Sun 11-19</li>
+          </ul>
+        </div>
+        </div>
     </footer>
-
-
 </body>
 </html>
